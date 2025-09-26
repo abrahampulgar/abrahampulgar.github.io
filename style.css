@@ -303,7 +303,7 @@ background: linear-gradient(to top, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Fir
     font-size: 2rem;
     color:white;
     top:470px;
-    z-index: 14;
+	z-index: 16;
     text-align: center;
 }
 .square-text-3{
