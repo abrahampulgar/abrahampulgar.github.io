@@ -1,14 +1,9 @@
 window.addEventListener("load", function() {
-    var preloader = document.getElementById("preloader");
-    preloader.style.display = "none"; // Oculta el preloader
-  });
+  // Oculta el preloader
+  var preloader = document.getElementById("preloader");
+  if (preloader) preloader.style.display = "none";
 
-
-
-  
-
-document.addEventListener('DOMContentLoaded', function () {
   // Muestra el contenedor principal
-  document.getElementById('page-container').style.display = 'block';// Oculta el loader
-  document.getElementById('loader').style.display = 'none';
+  var page = document.getElementById("page-container");
+  if (page) page.style.display = "block";
 });
