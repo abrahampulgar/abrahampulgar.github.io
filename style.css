@@ -238,7 +238,6 @@ background: linear-gradient(to top, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Fir
     position: relative;
 }
 .hero img{
-    border-radius: 22px;;
     display: flex;
     background-color: #001a2b;
 
@@ -269,7 +268,7 @@ background: linear-gradient(to top, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Fir
     border: solid 30px var(--op4);
     opacity: .2;
     z-index: 19;
-    top:110px;/*original es de 90px quedo perfenctoo*/
+    top:90px;/*original es de 90px quedo perfenctoo*/
 }
 .circle{/*circulo color mas fuerte*/
     width: 270px;
@@ -277,10 +276,10 @@ background: linear-gradient(to top, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Fir
     border-radius: 50%;
     border: solid 15px var(--op1);
     z-index: 230;
-    top: 120px;
+    top: 100px;
 }
 .profile-img{
-    top: 134px;/*EDITADO IMAGEN POICION original 136  aqui muevo la imgen de mi perfil hacia abiajo o arriba - SUBE + BAJA*/
+    top: 115px;/*EDITADO IMAGEN POICION original 136  aqui muevo la imgen de mi perfil hacia abiajo o arriba - SUBE + BAJA*/
     z-index: 30;
 }
 .profile-img img{
@@ -296,13 +295,13 @@ background: linear-gradient(to top, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Fir
 .square-text{
     font-size: 2.6rem;
     color:#003e1c;
-    top: 405px;
-    z-index: 11;
+    top: 390px;
+    z-index: 10;
 }
 .square-text-2{
     font-size: 2rem;
     color:white;
-    top:470px;
+    top:440px;
 	z-index: 16;
     text-align: center;
 }
@@ -321,7 +320,7 @@ background: linear-gradient(to top, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Fir
     text-decoration: none;
 }
 .contact-icon{
-    top : 540px;
+    top : 490px;
     z-index: 20;
     text-decoration: none;
 }
