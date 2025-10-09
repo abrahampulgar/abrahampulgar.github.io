@@ -1103,5 +1103,196 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
     display: flex;
     justify-content: center;
   }
+/* =========================================================
+   🔹 MEDIA QUERIES RESPONSIVAS PARA ANDROID Y DISPOSITIVOS MÓVILES
+   ========================================================= */
 
- 
+/* Teléfonos grandes y tablets pequeñas (hasta 1024px de ancho) */
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 5%;
+    text-align: center;
+  }
+
+  .header .nav-links li {
+    padding: 10px 0;
+  }
+
+  .hero img {
+    height: 400px;
+  }
+
+  .square {
+    width: 90%;
+    height: auto;
+  }
+
+  .square-text,
+  .square-text-2,
+  .square-text-3 {
+    font-size: 1.5rem;
+  }
+
+  .profile-img img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .circle,
+  .circle-trans {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+/* Pantallas medianas (tablets, Android horizontales) */
+@media (max-width: 768px) {
+  .about-flex {
+    flex-direction: column;
+    padding: 30px 0;
+  }
+
+  .social {
+    border-left: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social img {
+    width: 50px;
+    margin: 8px;
+  }
+
+  .skill,
+  .perla {
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 50px;
+  }
+
+  .briefcase-grid {
+    grid-template-columns: repeat(auto-fit, minmax(230px, auto));
+  }
+
+  .timeline-item {
+    min-width: 250px;
+  }
+
+  .card {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .left-column {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .right-column {
+    padding: 1rem;
+  }
+}
+
+/* Celulares verticales (Android estándar) */
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+
+  .navbar a {
+    font-size: 1rem;
+    margin: 5px;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .profile {
+    flex-direction: column;
+  }
+
+  .circle,
+  .circle-trans {
+    width: 180px;
+    height: 180px;
+    border-width: 10px;
+  }
+
+  .profile-img img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .square-text {
+    font-size: 1.4rem;
+  }
+
+  .square-text-2 {
+    font-size: 1.1rem;
+  }
+
+  .square-text-3 {
+    font-size: 1rem;
+  }
+
+  .contact-icon img {
+    width: 40px;
+    margin: 5px;
+  }
+
+  .carousel {
+    width: 90%;
+    height: 200px;
+  }
+
+  .about p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 20px;
+  }
+
+  .btn,
+  .my-button2,
+  .mi-boton {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+}
+
+/* Celulares muy pequeños (Android antiguos o mini pantallas) */
+@media (max-width: 360px) {
+  .header .nav-links li {
+    padding: 5px 0;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+  }
+
+  .square-text,
+  .square-text-2 {
+    font-size: 1rem;
+  }
+
+  .briefcase-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .timeline-item {
+    padding: 10px;
+  }
+}
+/*fin responsive*/
