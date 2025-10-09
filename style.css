@@ -1132,18 +1132,28 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
   .square-text,
   .square-text-2,
   .square-text-3 {
-    font-size: 1.5rem;
+    font-size: 3.5rem;
   }
 
   .profile-img img {
     width: 180px;
     height: 180px;
+	    display: flex;
+ 
+  align-items: center;    /* centra horizontalmente */
+  justify-content: center;/* centra verticalmente */
+
   }
 
   .circle,
   .circle-trans {
     width: 220px;
     height: 220px;
+	    display: flex;
+ 
+  align-items: center;    /* centra horizontalmente */
+  justify-content: center;/* centra verticalmente */
+
   }
 }
 
@@ -1196,6 +1206,27 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
     padding: 1rem;
   }
 }
+ .profile-img img {
+    width: 180px;
+    height: 180px;
+	    display: flex;
+ 
+  align-items: center;    /* centra horizontalmente */
+  justify-content: center;/* centra verticalmente */
+
+  }
+
+  .circle,
+  .circle-trans {
+    width: 220px;
+    height: 220px;
+	    display: flex;
+ 
+  align-items: center;    /* centra horizontalmente */
+  justify-content: center;/* centra verticalmente */
+
+  }
+}
 
 /* Celulares verticales (Android estándar) */
 @media (max-width: 480px) {
@@ -1228,28 +1259,28 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
   .profile-img img {
     width: 150px;
     height: 150px;
-	 justify-content: center;/* centra verticalmente */
+	 text-align:center;/* centra verticalmente */
   }
 
   .square-text {
     font-size: 1.4rem; 
-	  justify-content: center;/* centra verticalmente */
+	 text-align:center;/* centra verticalmente */
   }
 
   .square-text-2 {
     font-size: 1.1rem;
-	   justify-content: center;/* centra verticalmente */
+	   text-align:center;/* centra verticalmente */
   }
 
   .square-text-3 {
     font-size: 1rem;
-	   justify-content: center;/* centra verticalmente */
+	   text-align:center;/* centra verticalmente */
   }
 
   .contact-icon img {
     width: 40px;
     margin: 5px;
-	   justify-content: center;/* centra verticalmente */
+	   text-align:center;/* centra verticalmente */
 	
   }
 
@@ -1275,6 +1306,27 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
     padding: 10px 15px;
   }
 }
+ .profile-img img {
+    width: 180px;
+    height: 180px;
+	    display: flex;
+ 
+  align-items: center;    /* centra horizontalmente */
+  justify-content: center;/* centra verticalmente */
+
+  }
+
+  .circle,
+  .circle-trans {
+    width: 220px;
+    height: 220px;
+	    display: flex;
+ 
+  align-items: center;    /* centra horizontalmente */
+  justify-content: center;/* centra verticalmente */
+
+  }
+}
 
 /* Celulares muy pequeños (Android antiguos o mini pantallas) */
 @media (max-width: 360px) {
@@ -1288,7 +1340,7 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
 
   .square-text,
   .square-text-2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .briefcase-grid {
@@ -1301,6 +1353,27 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
 
   .timeline-item {
     padding: 10px;
+  }
+}
+ .profile-img img {
+    width: 180px;
+    height: 180px;
+	    display: flex;
+ 
+  align-items: center;    /* centra horizontalmente */
+  justify-content: center;/* centra verticalmente */
+
+  }
+
+  .circle,
+  .circle-trans {
+    width: 220px;
+    height: 220px;
+	    display: flex;
+ 
+  align-items: center;    /* centra horizontalmente */
+  justify-content: center;/* centra verticalmente */
+
   }
 }
 /*fin responsive*/
