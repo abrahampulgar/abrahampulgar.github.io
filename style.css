@@ -1099,7 +1099,7 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
     font-weight: bold;
   }
   .square-text-2{
-    font-size: 1.8rem;
+    font-size: 20px;
     color:white;
     top:440px;
 	z-index: 16;
