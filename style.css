@@ -42,6 +42,7 @@ body {
     --op2:#1B42A1;/*azul sin brillo*/
     --op3:#00BFFF;/*azul claro*/
     --op4:#00FF00;
+    --op5:#51CD85;
     --transition: color 0.1s, background-color 0.2s ease-in-out;
     --skillss-bar-length: 0%;
     --fondo-rgb: 128, 0, 128;
@@ -294,7 +295,7 @@ background: linear-gradient(to top, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Fir
 }
 .square-text{
     font-size: 2.6rem;
-    color:#003e1c;
+    color:var(--op5);
     top: 390px;
     z-index: 10;
 }
@@ -1094,286 +1095,32 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 18px;
+    font-size: 8px;
     font-weight: bold;
   }
+  .square-text-2{
+    font-size: 1.8rem;
+    color:white;
+    top:440px;
+	z-index: 16;
+    text-align: center;
+}
   .btn-titulo-contacto{
     font-size: 2.2rem;
     color: white;
     display: flex;
     justify-content: center;
   }
-/* =========================================================
-   🔹 MEDIA QUERIES RESPONSIVAS PARA ANDROID Y DISPOSITIVOS MÓVILES
-   ========================================================= */
-
-/* Teléfonos grandes y tablets pequeñas (hasta 1024px de ancho) */
-@media (max-width: 1024px) {
-  .header {
-    flex-direction: column;
-    height: auto;
-    padding: 10px 5%;
-    text-align: center;
-  }
-
-  .header .nav-links li {
-    padding: 10px 0;
-  }
-
-  .hero img {
-    height: 400px;
-  }
-
-  .square {
-    width: 90%;
-    height: auto;
-  }
-
-  .square-text,
-  .square-text-2,
-  .square-text-3 {
-    font-size: 3.5rem;
-  }
-
-  .profile-img img {
-    width: 180px;
-    height: 180px;
-	    display: flex;
- 
-  align-items: center;    /* centra horizontalmente */
-  justify-content: center;/* centra verticalmente */
-
-  }
-
-  .circle,
-  .circle-trans {
-    width: 220px;
-    height: 220px;
-	    display: flex;
- 
-  align-items: center;    /* centra horizontalmente */
-  justify-content: center;/* centra verticalmente */
-
-  }
+.contact-icon a {
+    text-decoration: none;
 }
-
-/* Pantallas medianas (tablets, Android horizontales) */
-@media (max-width: 768px) {
-  .about-flex {
-    flex-direction: column;
-    padding: 30px 0;
-  }
-
-  .social {
-    border-left: none;
-    padding-left: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .social img {
-    width: 50px;
-    margin: 8px;
-  }
-
-  .skill,
-  .perla {
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    gap: 50px;
-  }
-
-  .briefcase-grid {
-    grid-template-columns: repeat(auto-fit, minmax(230px, auto));
-  }
-
-  .timeline-item {
-    min-width: 250px;
-  }
-
-  .card {
-    flex-direction: column;
-    width: 90%;
-    height: auto;
-  }
-
-  .left-column {
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .right-column {
-    padding: 1rem;
-  }
+.contact-icon{
+    top : 520px;
+    z-index: 40;
+    text-decoration: none;
 }
- .profile-img img {
-    width: 180px;
-    height: 180px;
-	    display: flex;
- 
-  align-items: center;    /* centra horizontalmente */
-  justify-content: center;/* centra verticalmente */
-
-  }
-
-  .circle,
-  .circle-trans {
-    width: 220px;
-    height: 220px;
-	    display: flex;
- 
-  align-items: center;    /* centra horizontalmente */
-  justify-content: center;/* centra verticalmente */
-
-  }
+.contact-icon img{
+    width: 80px;
+    margin: 0 10px;
+    text-decoration: none;
 }
-
-/* Celulares verticales (Android estándar) */
-@media (max-width: 480px) {
-  body {
-    font-size: 16px;
-  }
-
-  .navbar a {
-    font-size: 1rem;
-    margin: 5px;
-  }
-
-  .header {
-    padding: 10px;
-  }
-
-  .profile {
-    flex-direction: column;
-  }
-
-  .circle,
-  .circle-trans {
-    width: 180px;
-    height: 180px;
-    border-width: 10px; 
-	justify-content: center;/* centra verticalmente */
-	text-align: center;
-  }
-
-  .profile-img img {
-    width: 150px;
-    height: 150px;
-	 text-align:center;/* centra verticalmente */
-  }
-
-  .square-text {
-    font-size: 1.4rem; 
-	 text-align:center;/* centra verticalmente */
-  }
-
-  .square-text-2 {
-    font-size: 1.1rem;
-	   text-align:center;/* centra verticalmente */
-  }
-
-  .square-text-3 {
-    font-size: 1rem;
-	   text-align:center;/* centra verticalmente */
-  }
-
-  .contact-icon img {
-    width: 40px;
-    margin: 5px;
-	   text-align:center;/* centra verticalmente */
-	
-  }
-
-  .carousel {
-    width: 90%;
-    height: 200px;
-  }
-
-  .about p {
-    font-size: 1rem;
-    line-height: 1.6rem;
-  }
-
-  footer {
-    font-size: 0.8rem;
-    padding: 20px;
-  }
-
-  .btn,
-  .my-button2,
-  .mi-boton {
-    font-size: 0.9rem;
-    padding: 10px 15px;
-  }
-}
- .profile-img img {
-    width: 180px;
-    height: 180px;
-	    display: flex;
- 
-  align-items: center;    /* centra horizontalmente */
-  justify-content: center;/* centra verticalmente */
-
-  }
-
-  .circle,
-  .circle-trans {
-    width: 220px;
-    height: 220px;
-	    display: flex;
- 
-  align-items: center;    /* centra horizontalmente */
-  justify-content: center;/* centra verticalmente */
-
-  }
-}
-
-/* Celulares muy pequeños (Android antiguos o mini pantallas) */
-@media (max-width: 360px) {
-  .header .nav-links li {
-    padding: 5px 0;
-  }
-
-  .navbar a {
-    font-size: 0.9rem;
-  }
-
-  .square-text,
-  .square-text-2 {
-    font-size: 1.5rem;
-  }
-
-  .briefcase-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .card {
-    width: 100%;
-  }
-
-  .timeline-item {
-    padding: 10px;
-  }
-}
- .profile-img img {
-    width: 180px;
-    height: 180px;
-	    display: flex;
- 
-  align-items: center;    /* centra horizontalmente */
-  justify-content: center;/* centra verticalmente */
-
-  }
-
-  .circle,
-  .circle-trans {
-    width: 220px;
-    height: 220px;
-	    display: flex;
- 
-  align-items: center;    /* centra horizontalmente */
-  justify-content: center;/* centra verticalmente */
-
-  }
-}
-/*fin responsive*/
