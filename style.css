@@ -1221,28 +1221,34 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
     width: 180px;
     height: 180px;
     border-width: 10px;
+	text-align: center;
   }
 
   .profile-img img {
     width: 150px;
     height: 150px;
+	text-align: center;
   }
 
   .square-text {
     font-size: 1.4rem;
+	  text-align: center;
   }
 
   .square-text-2 {
     font-size: 1.1rem;
+	  text-align: center;
   }
 
   .square-text-3 {
     font-size: 1rem;
+	  text-align: center;
   }
 
   .contact-icon img {
     width: 40px;
     margin: 5px;
+	  text-align: center;
   }
 
   .carousel {
