@@ -1220,35 +1220,37 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
   .circle-trans {
     width: 180px;
     height: 180px;
-    border-width: 10px;
+    border-width: 10px; 
+	justify-content: center;/* centra verticalmente */
 	text-align: center;
   }
 
   .profile-img img {
     width: 150px;
     height: 150px;
-	text-align: center;
+	 justify-content: center;/* centra verticalmente */
   }
 
   .square-text {
-    font-size: 1.4rem;
-	  text-align: center;
+    font-size: 1.4rem; 
+	  justify-content: center;/* centra verticalmente */
   }
 
   .square-text-2 {
     font-size: 1.1rem;
-	  text-align: center;
+	   justify-content: center;/* centra verticalmente */
   }
 
   .square-text-3 {
     font-size: 1rem;
-	  text-align: center;
+	   justify-content: center;/* centra verticalmente */
   }
 
   .contact-icon img {
     width: 40px;
     margin: 5px;
-	  text-align: center;
+	   justify-content: center;/* centra verticalmente */
+	
   }
 
   .carousel {
